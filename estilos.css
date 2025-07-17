@@ -1,0 +1,64 @@
+/* estilos.css */
+
+/* --- Estilos Generales --- */
+body {
+    background-color: #001b1c; /* Un color de fondo suave, en lugar de blanco */
+    font-family: 'Noto Sans', sans-serif; /* Tipografía base para todo el texto */
+    color: #ffff; /* Color de texto principal más oscuro */
+}
+
+/* --- Clases de Ayuda (reemplazan los style en línea) --- */
+.contenido-principal {
+    margin-top: 100px;
+}
+
+.links-botones {
+    margin-top: 50px;
+}
+
+
+/* --- Estilos de Texto --- */
+h1 {
+    font-family: 'Noto Sans', sans-serif; /* Tipografía para el título principal */
+    font-weight: 800; /* Grosor de la fuente */
+    font-size: 48px; /* Tamaño más grande */
+    color: #ffffff; /* Un color azul oscuro */
+}
+
+h2.lead {
+    font-family: 'Noto Sans', sans-serif; /* Mantenemos Lato pero podemos personalizarla */
+    font-weight: 500;
+    color: #008fa4; /* Un color azul más suave */
+    font-size: 24px;
+}
+
+
+/* --- Estilos de Botones --- */
+
+/* Estilo para el botón primario (azul) */
+.btn-primary {
+    background-color: rgba(0, 143, 164, 0.6);
+    font-weight: 600;
+    transition: all 0.3s ease; /* Transición suave para el hover */
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 143, 164); /* Un rojo un poco más oscuro al pasar el mouse */
+}
+
+/* Estilo para el botón por defecto (gris) */
+.btn-default {
+    background-color: #001b1c; /* Un color celeste claro */
+    box-shadow: 0 0 10px rgba(32, 239, 232, 0.2);
+    border-color: #008fa4;
+    color: #ffffff; /* Texto azul oscuro para que contraste */
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-default:hover {
+    background-color: #001b1c; /* Celeste un poco más oscuro */
+    box-shadow: 0 0 10px rgba(32, 239, 232, 0.5);
+    color: #ffffff;
+}
